@@ -16,3 +16,14 @@ console.log(Math.sqrt(64));
 console.log(Math.cbrt(64));
 
 console.log(Math.abs(-64));               //turns negative values positive
+
+console.log(Math.max(2,7,12,23,28));  
+
+console.log(Math.min(2,7,12,23,28));
+
+console.log(Math.random());               // gives a random value between 0 & 1
+console.log(Math.trunc((Math.random()*9000)+1000));
+
+let a = 23.283746594;
+console.log(a.toFixed(2));
+console.log(typeof a.toFixed(2));
